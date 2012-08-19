@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'gthor/runner'
+
+$thor_runner = true
+Gthor::Runner.start

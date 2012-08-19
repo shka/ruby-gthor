@@ -1,0 +1,21 @@
+* Gthor
+
+*Gthor* - [[https://github.com/wycats/thor][Thor]] extension on RubyGem framework
+
+Gthor finds not only Thorfiles by traversing from current directory down to the root, but also =Gthorfile= at the current directory (no traversing) or root of all installed gems, and then enables to exec it as subcommands of =gthor=. So Gthor can manage Thor extensions on RubyGem framework, by =gem= command.
+
+* Installation
+
+: gem install gthor
+
+* Usage
+
+Format of =Gthorfile= is same with Thorfiles, which contain standard ruby code with Thor functionalities. Please see [[https://github.com/wycats/thor/wiki][Thor wiki]] for detailed usages.
+
+* Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
