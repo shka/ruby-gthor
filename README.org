@@ -1,6 +1,6 @@
 * Gthor
 
-*Gthor* - [[https://github.com/wycats/thor][Thor]] extension on RubyGem framework
+*Gthor* - [[https://github.com/wycats/thor][Thor]] with extension management on RubyGem framework
 
 Gthor finds not only Thorfiles by traversing from current directory down to the root, but also =Gthorfile= at the current directory (no traversing) or root of all installed gems, and then enables to exec it as subcommands of =gthor=. So Gthor can manage Thor extensions on RubyGem framework, by =gem= command.
 
